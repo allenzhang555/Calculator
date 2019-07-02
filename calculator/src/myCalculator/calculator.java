@@ -70,8 +70,8 @@ public class calculator extends Frame implements ActionListener, WindowListener
         button_sqrt = new JButton( "sqrt" );//根号
 		button_plusminus = new JButton( "+/-" );
 		button_exp = new JButton( "exp" );//底数e的n次幂
-		button_CE = new JButton( "退位");
-		button_cancel = new JButton( "c" );//清除
+		button_CE = new JButton( "退格");
+		button_cancel = new JButton( "C" );//清除
 
 		JPanel panel2 = new  JPanel();
 		panel2.setLayout( new GridLayout( 1,5,4,4 ) );
